@@ -165,7 +165,10 @@ main {
 
 @media (max-width: 485px) {
     body{
-        background-size: 205%;
+        height: 100vh;
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 150%;
     }
     .card{
         width: 340px;
